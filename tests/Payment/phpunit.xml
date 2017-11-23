@@ -1,0 +1,13 @@
+<phpunit bootstrap="../sdk/ECPay.Payment.Integration.php">
+	<testsuites>
+		<testsuite name="Utility">
+			<file>ECPay_CheckMacValueTest.php</file>
+		</testsuite>
+		<testsuite name="ECPayVerification">
+			<file>ECPay_VerificationTest.php</file>
+		</testsuite>
+		<testsuite name="ECPayCVSTest">
+			<file>ECPay_CVSTest.php</file>
+		</testsuite>
+	</testsuites>
+</phpunit>
