@@ -1,4 +1,4 @@
-<phpunit bootstrap="../sdk/ECPay.Payment.Integration.php">
+<phpunit bootstrap="../SDK/ECPay/Payment/sdk/ECPay.Payment.Integration.php">
 	<testsuites>
 		<testsuite name="Utility">
 			<file>ECPay_CheckMacValueTest.php</file>
