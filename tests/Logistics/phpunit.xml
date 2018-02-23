@@ -1,11 +1,11 @@
-<phpunit bootstrap="../SDK/ECPay/Payment/sdk/ECPay.Payment.Integration.php">
-	<testsuites>
-		<testsuite name="Utility">
-			<file>ECPay_CheckMacValueTest.php</file>
-			<file>ECPay_ServerPostTest.php</file>
-			<file>ECPay_CvsCreateShippingOrder.php</file>
+<phpunit bootstrap="../SDK/ECPay/Logistics/sdk/ECPay.Logistics.Integration.php">
+    <testsuites>
+        <testsuite name="Utility">
+            <file>ECPay_CheckMacValueTest.php</file>
+            <file>ECPay_ServerPostTest.php</file>
+            <file>ECPay_CvsCreateShippingOrder.php</file>
             <file>ECPay_HomeCreateShippingOrder.php</file>
-			<file>ECPay_CreateReturnOrder.php</file>
-		</testsuite>
-	</testsuites>
+            <file>ECPay_CreateReturnOrder.php</file>
+        </testsuite>
+    </testsuites>
 </phpunit>
