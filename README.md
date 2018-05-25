@@ -60,7 +60,7 @@ tests
 5. Run `phpunit` command.
 
 ```
-$ cd /path/to/tests/
+$ cd /path/to/testing/
 $ cd Payment/
 $ phpunit
 PHPUnit 5.7.19 by Sebastian Bergmann and contributors.
